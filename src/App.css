@@ -1,0 +1,52 @@
+.App__form .css-wb57ya-MuiFormControl-root-MuiTextField-root{
+  margin-bottom: 27px;
+}
+.clearfix{
+  clear:both;
+}
+.btns{
+  margin-top: 37px!important;
+}
+
+.add-guest-btn{
+  border-radius: 50px;
+}
+
+.grid-container{
+  height: 100vh;
+}
+
+.grid-col-left{
+  border-right: 1px solid;
+  border-color: #ccc9c9;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.grid-col-right{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.time-icon svg{
+  margin-bottom: -4px;
+  display: inline-block;
+}
+
+.calendar-icon svg{
+  margin-bottom: -4px;
+  display: inline-block;
+}
+
+.globe-icon svg{
+  margin-bottom: -4px;
+  display: inline-block;
+}
+
+@media (max-width: 575px) {
+  .grid-col-left{
+    border-right: 0px;
+    border-bottom: 1px solid;
+    border-color: #ccc9c9;
+  }
+}
